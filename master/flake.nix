@@ -11,7 +11,6 @@
   inputs.src-decimal128-master.ref   = "refs/heads/master";
   inputs.src-decimal128-master.owner = "JohnAD";
   inputs.src-decimal128-master.repo  = "decimal128";
-  inputs.src-decimal128-master.dir   = "";
   inputs.src-decimal128-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
